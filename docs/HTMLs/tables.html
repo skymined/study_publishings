@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<body>
+
+    <h1>Tables</h1>
+    
+    <!-- 3행 1열 -->
+    <h2>row3, column1</h2>
+    <table border="1">
+        <tr>
+            <td>row1, column1</td>
+        </tr>
+        <tr>
+            <td>row2, column2</td>
+            </td>
+        </tr>
+        <tr>
+            <td>row3, column3</td>
+        </tr>
+    </table>
+
+    <!-- 3행 2열 -->
+    <h2>row3, column2</h2>
+    <table border="1">
+         <tr>
+             <td>row1, column1</td>
+             <td>row1, column2</td>
+         </tr>
+         <tr>
+            <td>row2, column1</td>
+             <td>row2, column2</td>
+         </tr>
+         <tr>
+            <td>row3, column1</td>
+            <td>row3, column2</td>
+         </tr>
+    </table>
+
+    <!-- row2, column2with head -->
+    <h2>row2, column2 with head</h2>
+    <table border="1">
+        <tr>
+            <th>column head1</th>
+            <th>column head2</th>
+        </tr>
+        <tr>
+            <td>row1, column1</td>
+            <td>row1, column2</td>
+        </tr>
+        <tr>
+            <td>row2, column1</td>
+            <td>row2, column2</td>
+        </tr>
+    </table>
+
+    
+    <!-- row3, column2 with merge -->
+    <h2>row3, column2 with merge(병합)</h2>
+    <table border="1">
+         <tr>
+             <td colspan="2"> row1, column1</td>
+             <td rowspan="3">row1, column3</td>
+         </tr>
+         <tr>
+            <td>row2, column1</td>
+            <td rowspan="2">row2, column2</td>
+         </tr>
+         <tr>
+            <td>row3, column1</td>
+         </tr>
+    </table>
+
+    <!-- row3, column2 give width -->
+    <h2>row3, column2 give width</h2>
+    <table border="1" width="100%">
+         <tr>
+             <td>row1, column1</td>
+             <td width="10"> row1 column2</td>
+         </tr>
+         <tr>
+            <td>row2, column1</td>
+             <td>row2 column2</td>
+         </tr>
+         <tr>
+            <td>row3, column1</td>
+            <td>row3 column2</td>
+         </tr>
+    </table>
+
+    <br>
+
+    <div>
+        <a href="../main.html">Go back to main</a>
+    </div>
+</body>
+</html>
