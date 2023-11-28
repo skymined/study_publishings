@@ -1,151 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>resume_sky</title>
+
+    <style>
+        * {
+            font-size: 15px;
+        }
+        main {
+            border-style: solid;
+            width: 700px;
+            margin: 50px;
+            padding: 50px;
+        }
+
+        table {
+            text-align: center;
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        tr {
+            height: 30px;
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        .gray {
+            background-color: rgb(207, 207, 207);
+        }
+
+        .bottom{
+            
+        }
+    </style>
+
 </head>
+
 <body>
     <!-- 과제_테이블_이력서 작성하기 -->
+    <main>
+        <h1 style="text-align: center; font-size: xx-large;">이 력 서</h1>
 
-    <h1>이력서</h1>
-    <h3>1. 인적사항</h3>
-    <table border="1">
-        <tr>
-            <td rowspan="4"></td>
-            <td> 성 명</td>
-            <td colspan="2"></td>
-            <td> 생년월일 </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td rowspan="2"> 연락처</td>
-            <td> 자 택 </td>
-            <td></td>
-            <td rowspan="2">e-mail</td>
-            <td rowspan="2"></td>
-        </tr>
-        <tr>
-            <td>핸드폰</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td> 주 소</td>
-            <td colspan="4"></td>
-        </tr>
-    </table>
+        <h3>1. 인적사항</h3>
+        <table>
+            <tr>
+                <td rowspan="4" style="width: 80px;">
+                    <img src="../../images/quest_image_5.jpg" width="100%" alt="이력서 사진">
+                </td>
+                <td class="gray"> 성 명</td>
+                <td colspan="2" style="width: 150px;"></td>
+                <td class="gray"> 생년월일 </td>
+                <td style="width: 120px;"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="gray"> 연락처</td>
+                <td> 자 택 </td>
+                <td style="width: 100px;"></td>
+                <td rowspan="2" class="gray">e-mail</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>핸드폰</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="gray"> 주 소</td>
+                <td colspan="4"></td>
+            </tr>
+        </table>
 
-    <h3> 2. 학력사항 </h3>
-    <table border="1">
-        <tr>
-            <td> 기간 </td>
-            <td> 학교명 </td>
-            <td> 전 공 </td>
-            <td> 졸업구분 </td>
-            <td> 소재자 </td>
-        </tr>
-        <tr>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
-            <td>  </td>
-        </tr>
-    </table>
+        <h3> 2. 학력사항 </h3>
+        <table>
+            <tr class="gray">
+                <td style="width: 150px;"> 기간 </td>
+                <td> 학교명 </td>
+                <td> 전 공 </td>
+                <td style="width: 70px;"> 졸업구분 </td>
+                <td style="width: 60px;"> 소재자 </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
 
-    <h3> 3. 경력사항 </h3>
-    <table border="1">
-        <tr>
-            <td>근무기간</td>
-            <td>직장명</td>
-            <td>담당업무</td>
-            <td>직위</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+        <h3> 3. 경력사항 </h3>
+        <table>
+            <tr class="gray">
+                <td >근무기간</td>
+                <td>직장명</td>
+                <td style="width: 100pt;">담당업무</td>
+                <td style="width: 80pt; letter-spacing: 5pt;">직 위</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
 
-    <h3>4. 자격사항 및 OA 활용능력</h3>
-    <table border="1">
-        <tr>
-            <td>취득일</td>
-            <td>자격증명(등급)</td>
-            <td>발급기관</td>
-            <td rowspan="4">OA<div>활용</div><div>능력</div></td>
-            <td>문서작성</td>
-            <td>엑셀</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>파워포인트</td>
-            <td>전산회계</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+        <h3>4. 자격사항 및 OA 활용능력</h3>
+        <table>
+            <tr class="gray">
+                <td style="letter-spacing: 3pt; width: 80pt;">취 득 일</td>
+                <td>자격증명(등급)</td>
+                <td>발급기관</td>
+                <td rowspan="4">OA<div>활용</div>
+                    <div>능력</div>
+                </td>
+                <td style="width: 60pt;">문서작성</td>
+                <td style="width: 60pt;">엑셀</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="gray">파워포인트</td>
+                <td class="gray">전산회계</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
 
-    <h3> 5. 교육사항</h3>
-    <table border="1">
-        <tr>
-            <td>교육기간</td>
-            <td>교육명</td>
-            <td>교육내용</td>
-            <td>교육기관</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+        <h3> 5. 교육사항</h3>
+        <table>
+            <tr class="gray">
+                <td>교육기간</td>
+                <td>교육명</td>
+                <td>교육내용</td>
+                <td>교육기관</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+
+        <div class="bottom">
+            <div style="text-align: center;"> 위의 사실이 틀림없음을 서약합니다.</div>
+            <br>
+            <div style="text-align: center; letter-spacing: 15px;" > 년 월 일</div>
+            <br>
+            <div style="text-align: right; word-spacing: 200px;"> 작성자 (인) </div>
+        </div>
+
+    </main>
+
     <br>
-    <div> 위의 사실이 틀림없음을 서약합니다.</div>
-    <div> 년 월 일</div>
-    <div> 작성자 (인) </div>
-
-
-    <br>
-    
     <div>
         <a href="../../main.html">Go back to main</a>
     </div>
-    
+
+
 </body>
+
 </html>
