@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Text_colors_CSS</title>
+    <!-- table로 배치 / text와 background는 inline / width, title, align은 internal -->
 
     <style>
+        h1 {
+            font-family: fantasy;
+        }
         table {
             text-align: center;
             vertical-align: middle;
+            /* table 선을 없애려면 border-collapse:collapse 를 사용! */
             border-collapse:collapse;
         }
 
@@ -22,12 +27,12 @@
 
 </head>
 <body>
-    <!-- table로 배치 / text와 background는 inline / width, title, align은 internal -->
 
     <main>
         <h1>CSS Color Names</h1>
-        <div>
-            In CSS, a color can be specified by using a predefined color name:
+        <!-- font-family를 통해 font 변경 가능 -->
+        <div style="font-family:cursive ;">
+            In CSS, a color can be specified by using a predefined color name :
         </div>
         <table>
             <tr>
