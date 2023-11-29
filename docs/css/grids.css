@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 50% 30% ;
+    /*개수 만큼 column 수가 생성됨. auto는 자동으로 너비가 조정됨.*/
+    /* 50px auto auto의 경우 첫번째는 지정넓이, 나머지는 자동으로 조정됨. */
+    gap: 10px;
+
+}
+
+.grid-item-second-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
