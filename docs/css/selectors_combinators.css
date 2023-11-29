@@ -1,0 +1,20 @@
+/* (space) 하위 자손 모두를 의미 */
+
+/* div p {
+  background-color: yellow;
+} */
+
+/* 하위 자식을 의미 */
+/* div > p {
+    background-color: burlywood;
+} */
+
+/* div의 형제자매 중 첫 번째만 선택 */
+div +p {
+    background-color: blue;
+}
+
+/* div의 모든 형제 자매를 선택 */
+div ~ p{
+    background-color: rebeccapurple;
+}
