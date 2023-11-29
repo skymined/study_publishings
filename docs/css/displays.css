@@ -1,0 +1,39 @@
+
+/* display를 사용해서 span을 div로 만들 수도 있음. tag의 성격을 바꿀 수 있다! */
+.span_first {
+    display: block;
+}
+
+.div_first {
+    display: inline;
+}
+
+span.a {
+    display: inline;
+    /* the default for span */
+    /* inline이기 때문에 아래에 있는 width와 height가 작동하지 않는다. 그걸 싸고 있는 상위 태그 만큼만 동작 */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
