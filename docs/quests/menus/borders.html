@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border_CSS</title>
+    <style>
+        /* 위 아래 여백 두기 */
+        *{margin-top: 10px;}
+        .dotted{
+            border-style: dotted;
+            border-width: 4px;
+            border-color:blueviolet ;
+        }
+        /* .을 이용해서 해당하는 class에만 값을 부여할 수 있음 */
+        /* div에 solid를 조합하고 싶으면 .을 이용 */
+        div.solid{ /*tab+class name으로 지정*/
+            border-style: solid;
+            border-top-width:5px;
+            border-right-width: 10px;
+            border-bottom-width: 15px;
+            border-left-width: 20px;
+            border-left-color: blue;
+            border-bottom-color: darkmagenta;
+        }
+        .double {
+            /* border-style: double;
+            /* border-width: 5px 10px 15px 20px; */
+            /* top right bottom left */
+            /*shorthand 대개는 한번에 변경하기 때문에 자주 사용함*/
+
+            /* border-width: 5px 15px ; */
+            /* 두 개의 top과 bottom의 굵기와 right, left의 굵기가 같게 됨. 하나일 때는 전체, 두 개일 때는 쌍으로 돌아감 */
+
+            /* border를 치고 한번에 동작시킬 수 있음 */
+            border: 5px double red;
+            /* border-radius: 10px;  -전체적용*/
+            /* border-radius: 3px 6px 9px 12px; -top부터 left까지 시계방향- */
+            border-radius: 5px 10px; /*대각선이 쌍을 이뤄서 디자인됨*/
+        }
+
+    </style>
+    <link rel="stylesheet" href="../../quests/css/menu_nav.css">
+
+</head>
+
+<body>
+    <br>
+
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="../menus/borders.html">Border</a>
+            </li>
+            <li class="nav-item">
+                <a href="../menus/colors.html">Color</a>
+            </li>
+            <li class="nav-item">
+                <a href="../menus/texts.html">Text</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Border Style</h1>
+        <div class="dotted">A dotted border.</div>
+        <div class="solid">A solid border.</div>
+        <div class="double">A double border.</div>
+        <hr>
+
+        <a href="../index.html">Bo back to MENU</a>
+
+    </main>
+</body>
+
+</html>

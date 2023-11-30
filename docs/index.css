@@ -1,0 +1,66 @@
+
+/* BODY */
+body {
+    background-color: antiquewhite;
+}
+
+/* 상단 NAVIGATION BAR */
+.nav{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(247, 184, 49);
+    padding-left: 0;
+    width: 1000px;
+    color: black;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-item:link{
+    text-decoration: none;
+}
+
+.nav-item:visited {
+    text-decoration:none
+}
+
+.nav-item:hover {
+    background-color:rgb(149, 252, 252) ;
+    transform: translate(-2px);
+    transition: 0.5s;
+
+}
+
+
+
+/* MAIN */
+table {
+    width: 1000px;
+    font-family: sans-serif Arial;
+    border: 1pt solid;
+    border-collapse: collapse;
+}
+
+td,
+tr {
+    border: 1pt solid;
+}
+.td_1 {
+    width: 100px;
+}
+.td_2 {
+    width: 200px;
+    text-align:center;
+}
+
+nav, main {
+    margin-left: auto;
+    margin-right: auto;
+}
