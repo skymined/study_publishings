@@ -1,0 +1,20 @@
+.nav {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    /* gap을 줘도 상관없음 */
+    justify-content: space-around;
+    padding-left: 0;
+    text-align: center;
+}
+
+.nav-item{
+    background-color: chocolate;
+    padding: 5px;
+}
+
+.nav-item >a {
+    text-decoration: none; /*이거 다시 생각해보기*/
+}
+
+/* justify-content 설정 안하고 .nav-item 하면 잘못나옴 */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texts_CSS</title>
+    <style>
+        body {
+            background-color: rgb(24, 13, 13);
+        }
+        main {
+            border-style: dotted;
+            height: 350px;
+            width: 500px;
+            background-color: bisque;
+        }
+
+        /* 각각의 selector에 색을 부여 */
+        h1 {
+            color: deeppink;
+            border-style: dotted;
+            text-align: center;
+        }
+        div {
+            color :rgb(19, 19, 19);
+            /* text-indent는 문장에 한번만 들어간다. 앞에 띄어쓰기 해주는 것. 따라서 모든 부분에 적용시키고 싶으면 문장을 또 div로 싸주면 된다*/
+            text-indent: 20px;
+        }
+        span {
+            color:blueviolet;
+            border-style: dotted;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <!-- text는 많은 기능들이 있음.  -->
+        <h1 >TEXT FORMATTING</h1>
+        <div>
+            This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. </div>
+        <div>
+            The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored <span>"Try it Yourself"</span> link.
+        </div>
+        
+    </main>
+
+    <hr>
+    <a href="../index.html">Go back to MENU</a>
+    
+</body>
+</html>
