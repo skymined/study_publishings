@@ -1,3 +1,6 @@
+* {
+    border: dotted;
+}
 
 /* BODY */
 body {
@@ -21,9 +24,10 @@ body {
 
 .nav-item {
     padding: 10px;
+    text-decoration: none;
 }
 
-.nav-item:link{
+.nav-item a{
     text-decoration: none;
 }
 
